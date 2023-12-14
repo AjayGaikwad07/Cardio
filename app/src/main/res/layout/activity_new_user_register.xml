@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/register_new"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/Name1"
+            android:layout_width="340dp"
+            android:layout_height="52dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/edit_background"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Name"
+            android:inputType="textPersonName">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/Username"
+            android:layout_width="340dp"
+            android:layout_height="52dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/edit_background"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Username"
+            android:inputType="textEmailAddress">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/Password"
+            android:layout_width="340dp"
+            android:layout_height="52dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/edit_background"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="New Password"
+            android:inputType="textPassword">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/RePassword"
+            android:layout_width="340dp"
+            android:layout_height="52dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/edit_background"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Confirm Password"
+            android:inputType="textPassword">
+
+        </EditText>
+
+        <Button
+            android:id="@+id/signup"
+            android:layout_width="246dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="80dp"
+            android:background="@drawable/button_design_login"
+            android:gravity="center"
+            android:text="Register">
+
+        </Button>
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/patient_form"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="365dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:text="Fill Details"
+                android:textColor="@color/purple_500"
+                android:textSize="28dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/patient_name"
+                android:layout_width="340dp"
+                android:layout_height="52dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/edit_background"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Name"
+                android:inputType="textPersonName">
+
+            </EditText>
+
+            <EditText
+                android:id="@+id/patient_age"
+                android:layout_width="340dp"
+                android:layout_height="52dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/edit_background"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="AGE"
+                android:inputType="number">
+
+            </EditText>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="154dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="174dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:text="Select Gender"
+                android:textColor="@color/purple_500"
+                android:textSize="18dp">
+
+            </TextView>
+
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="337dp"
+                android:layout_height="111dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="0dp">
+
+                <RadioButton
+                    android:id="@+id/radioButton"
+                    android:layout_width="126dp"
+                    android:layout_height="62dp"
+                    android:layout_marginStart="20dp"
+                    android:text="Male"
+                    android:textSize="18dp">
+
+                </RadioButton>
+
+                <RadioButton
+                    android:id="@+id/radioButton2"
+                    android:layout_width="126dp"
+                    android:layout_height="62dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_weight="1"
+                    android:text="Female"
+                    android:textSize="18dp" />
+
+            </RadioGroup>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/patient_mobiel_number"
+                android:layout_width="340dp"
+                android:layout_height="52dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/edit_background"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Mobile Number"
+                android:inputType="number">
+
+            </EditText>
+
+            <Button
+                android:id="@+id/patient_fill"
+                android:layout_width="340dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/button_design_login"
+                android:text="Fill &amp; Processed">
+
+            </Button>
+
+            <Button
+                android:id="@+id/patient_history"
+                android:layout_width="340dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/button_design_login"
+                android:text="Patient History">
+
+            </Button>
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="166dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/button_design_login"
+                android:text="SKIP">
+
+            </Button>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

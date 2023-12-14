@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="103dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:text="Home"
+            android:textColor="@color/purple_500"
+            android:textSize="30sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/emergency_contact_page"
+            android:layout_width="357dp"
+            android:layout_height="51dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/button_design_login"
+            android:text="Emergency Contact">
+
+        </Button>
+
+        <Button
+            android:id="@+id/cardio_check_f"
+            android:layout_width="357dp"
+            android:layout_height="51dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/button_design_login"
+            android:text="Cardio Check">
+
+        </Button>
+
+        <Button
+            android:id="@+id/hospital_type_button"
+            android:layout_width="357dp"
+            android:layout_height="51dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/button_design_login"
+            android:text="Hospitals">
+
+        </Button>
+
+        <Button
+            android:id="@+id/schemes_button"
+            android:layout_width="357dp"
+            android:layout_height="51dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/button_design_login"
+            android:text="Government Schemes">
+
+        </Button>
+
+        <Button
+            android:id="@+id/patient_full_report"
+            android:layout_width="357dp"
+            android:layout_height="51dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/button_design_login"
+            android:text="History">
+
+        </Button>
+
+        <Button
+            android:id="@+id/helthtips_button"
+            android:layout_width="357dp"
+            android:layout_height="51dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="40dp"
+            android:background="@drawable/button_design_login"
+            android:text="Health Tips">
+
+
+        </Button>
+
+
+    </LinearLayout>
+</ScrollView>
